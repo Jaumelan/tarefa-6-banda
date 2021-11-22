@@ -141,4 +141,6 @@ table>tbody>tr>th {
     font-size: 150%;
     text-decoration: none;
     margin-left: 3%;
+    display: inline-block;
+    width: 100%;
 }

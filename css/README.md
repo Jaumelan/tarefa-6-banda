@@ -1,1 +1,0 @@
-Minha cantora favorita
