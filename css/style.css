@@ -73,7 +73,12 @@ main {
 
 #moreInfo {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
 }
+
 #rosaliaBio>h2 {
     font-family: 'Rubik', sans-serif;
     color: rgb(243, 237, 237);
@@ -82,8 +87,10 @@ main {
 }
 
 #rosaliaBio>figure {
-    width: 25%;
+    width: 60%;
     object-fit: cover;
+    margin: 4% 0;
+    align-self: center;
 }
 
 #rosaliaBio>figure>img {
