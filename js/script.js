@@ -22,7 +22,7 @@ document.querySelector("#tableHead").innerHTML = "Informações de Rosalía";
 
 document.querySelector("#genre>th").setAttribute("scope", "row");
 document.querySelector("#genre>th").innerHTML = "Gênero";
-document.querySelector("#genre>td").innerHTML = "Flamento, música urbana, pop";
+document.querySelector("#genre>td").innerHTML = "Flamenco, música urbana, pop";
 
 document.querySelector("#links>th").setAttribute("scope","row");
 document.querySelector("#links>th").innerHTML = "Links";
