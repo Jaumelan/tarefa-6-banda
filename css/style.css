@@ -131,6 +131,7 @@ table>tbody>tr>th {
     color: rgb(243, 237, 237);
     font-size: 150%;
     text-align:left;
+    display: inline-block;
     margin-left: 3%;
 }
 
