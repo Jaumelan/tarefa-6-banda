@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(139, 45, 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: rgb(243, 237, 237);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*My information */
+#myInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+#myInformation>h2 {
+    color: rgb(243, 237, 237);
+    font-family: 'Oswald', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+#myInformation>figure {
+    width: 25%;
+}
+
+#myInformation>figure>img {
+    width: 100%;
+}
+
+#myInformation>p {
+    color: rgb(243, 237, 237);
+    font-family: 'Oswald', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+/*Singer part */
+#presentationSinger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    -webkit-box-shadow: 8px 8px 11px 0px #EAD4D1;
+    box-shadow: 8px 8px 11px 0px #EAD4D1;
+    gap: 2%;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+#rosaliaBio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 40%;
+}
+
+#moreInfo {
+    width: 40%;
+}
+#rosaliaBio>h2 {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(243, 237, 237);
+    font-size: 150%;
+    text-align: center;
+}
+
+#rosaliaBio>figure {
+    width: 25%;
+    object-fit: cover;
+}
+
+#rosaliaBio>figure>img {
+    width: 100%;
+}
+
+.shortBio {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(243, 237, 237);
+    font-size: 150%;
+    text-align: center;
+}
+
+/*Table*/
+table>caption {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(243, 237, 237);
+    font-size: 100%;
+    text-align: center;
+}
+
+#tableHead {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(243, 237, 237);
+    font-size: 150%;
+    text-align: center;
+    line-height: 1.8;
+}
+table>tbody>tr>th {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(243, 237, 237);
+    font-size: 100%;
+    text-align: center;
+}
+
+#genre>td {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(243, 237, 237);
+    font-size: 150%;
+    text-align:left;
+    margin-left: 3%;
+}
+
+.tableRosalia {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(243, 237, 237);
+    font-size: 150%;
+    text-decoration: none;
+    margin-left: 3%;
+}
